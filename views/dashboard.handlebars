@@ -1,0 +1,15 @@
+<div class="displayTextBoxs">
+{{#each posts as |post|}}
+<div class="editAllPosts">
+    <div class="editBoxText">
+        <a href="/api/edit/{{post.id}}"><h4>{{post.title}}</h4></a>
+        <p>{{format_date createdAt}}</p>
+    </div>
+</div>
+{{/each}}
+
+
+
+<a class="createText" href="/api/new">Create a New Post</a>
+
+</div>

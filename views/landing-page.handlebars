@@ -1,0 +1,11 @@
+{{#each postMetaData as |post|}}
+<div class="editAllPosts">
+    <div class="editBoxText">
+        <a href="/dashboard/{{post.id}}"><h4>{{post.title}}</h4></a>
+        <p>{{post.text}}</p>
+        <p>{{format_date post.createdAt}}</p>
+        <p>Posted by: {{post.user.user_name}}</p>
+    </div>
+</div>
+{{/each}}
+

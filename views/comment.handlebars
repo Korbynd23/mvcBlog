@@ -1,0 +1,37 @@
+<div class="editAllPosts">
+    <div class="editBoxText">
+        <h4>{{posted.title}}</h4>
+        <p>{{posted.text}}</p>
+        <p>{{format_date posted.createdAt}}</p>
+        <p>Posted by: {{posted.user.user_name}}</p>
+    </div>
+</div>
+
+<div class="editAllPosts">
+    <div class="editBoxText">
+        <p class="underline">All Comments</p>
+        <div>
+            {{> comment-details }}
+        </div>
+    </div>
+</div>
+
+
+<div class="editAllPosts two">
+    <div class="formEdit" data-id=`{{posted.id}}`>
+        <form>
+            <div>
+                <input class="form-control" id="hiddenId" name="postId" type="hidden" value="{{posted.id}}"></input>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="formTextarea" rows="3" placeholder="Add comment here"></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" id="commentBtn" class="btn btn-primary btn-lg btn-block">Submit Comment</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/comment.js"></script>

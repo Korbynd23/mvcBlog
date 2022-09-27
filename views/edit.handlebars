@@ -1,0 +1,30 @@
+<div class="editAllPosts two">
+    <div class="formEdit" data-id=`{{posted.id}}`>
+        <form>      
+            <div>
+                <input class="form-control" id="hiddenId" name="postId" type="hidden" value="{{posted.id}}"
+                    ></input>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Title</label>
+                <textarea class="form-control" id="formTextarea1"
+                    placeholder={{posted.title}}></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Content</label>
+                <textarea class="form-control" id="formTextarea2" rows="3"
+                    placeholder={{posted.text}}></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" id="edit-post-btn" class="btn btn-primary btn-lg btn-block">Update Post</button>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="click" id="del-post-btn" class="btn btn-primary btn-lg btn-block">Delete Post</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="/js/edit.js"></script>
