@@ -14,7 +14,7 @@
 
 
 ## Description
-<!-- This applications purpose is to take in users input and provide them questions that help track their employee, department and role information. -->
+* The purpose of this application to provide a blog with topics centered around technology. Anyone is able to signup for this website by providing a username, email and password. You are then able to comment on other peoples post, create your own posts, even edit and delete your own posts.
 
 ## AcceptanceCriteria
 
@@ -78,17 +78,15 @@ N/a
 
 ## Instructions/How to use
 
-Link to Github Repo: https://github.com/Korbynd23/MVC-Blog
+Link to Heroku Deployment: https://nameless-ravine-75516.herokuapp.com/
 
-<!-- Start the command link prompt by typing "node index.js" into the terminal. The prompt will then ask you to select from multiple questions: View all departments, view all roles, view all employees, add a department, add a role, add an employee, update an employee's role or update an employee's manager. When a command is select it will fire the corresponding function that will provide you with whats needed to complete the desired task. 'View all' selections will immediately display a table of your desired selection. After finishing your desired task it will return to the main prompt, you can then select another function or select quit to close the server. -->
+* Upon arriving to the website, the homepage will display all the posts. You are able to view the posts without logging in however if you want to comment or create your own post youll need to signup/log in. When you click on the post titles youll be taken to a comment page where the posts comments are displayed and you can add another comment. When dashboard is clicked a page is render with the users posts and you are able to create more posts, edit or delete your posts. 
+
+
 
 ## Videos:
 
-
-Invoking the App - https://drive.google.com/file/d/1mAshOAdbDbztTJT7bZP8Wf1188rkAr7P/view
-
-
-
+N/A
 
 ## License
 Permission to use this application is granted under the MIT license. https://choosealicense.com/licenses/mit/
